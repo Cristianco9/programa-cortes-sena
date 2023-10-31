@@ -16,6 +16,8 @@ Propuesta de una aplicación Web la cual permite automatizar el proceso de despi
 
 Durante la primera reunion con el cliente (07/09/2023) nos expresa que cada lamina material tiene una medida máxima de 6 metros, por lo que la solución a desarrollar debe adaptarse a esa restricción fisica limitando como medida máxima para utilizar 5.90 metros, priorizando el ahorro de materiales, y sí el pedido del cliente supera el límite de cada lamina (5.90 metros) debera divirse sobre este límite y la parte restante debe realizarse en otra lamina, o sí el pedido del cliente requiere de multiples cortes debera divirlos en la cantidad de laminas necesarias. Una vez realizado este proceso se deberá comparar la cantidad de material necesario con la cantidad de material disponible en el inventario y generar una respuesta al usuario confirmando si el material en invetario es el suficiente o sí por lo contrario es necesario adquirir más material.
 
+La empresa maneja dos tipos de anjeos "anejos livianos" y "anjeos pesados" durante el desarrollo de este proyecto solamente abarcaremos el desarrollo de proyecto nos enfocaremos en los anjeos livianos, los otros 
+
 #### ANALISIS Y ESPECIFICACiÓN DE REQUERIMIENTOS
 
 > Requerimientos del proyecto
@@ -35,7 +37,16 @@ Durante la primera reunion con el cliente (07/09/2023) nos expresa que cada lami
 - **ACTUALMENTE** una persona se dedica a realizar el proceso de calcular los materiales y los costos necesarios para elaborar el pedido del cliente manualmente con la ayuda de hojas de calculo en Excel en las cuales ingresan las medidas y muestra cuanto material se necesitan. Luego el jefe de compará la cantidad de material necesario con la cantidad de material disponible en el invetario y se encarga de realizar las comprar necesarias.
  
  
+#### OBJETIVOS GENERAL
 
+- Desarrollo del prototipo de programa de cortes que permite el proceso de pedidos de anjeos livianos
+
+#### OBJETIVOS ESPECIFICOS
+
+- Desarrollo de una aplicación web que tenga una interfaz y una base de datos para antender el proceso de anjeos livianos (construido en HTML y CSS que permita la conexion a la base de datos).
+- Construcción de la base de datos en MYSQL.
+- Construcción de la interfaz grafica con HTML & CSS.
+- El programa debe permitir realizar los descuentos para los anjeos livianos.
 
 #### RIESGOS 
 

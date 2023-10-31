@@ -48,6 +48,13 @@ La empresa maneja dos tipos de anjeos "anejos livianos" y "anjeos pesados" duran
 - Construcción de la interfaz grafica con HTML & CSS.
 - El programa debe permitir realizar los descuentos para los anjeos livianos.
 
+
+#### REQUERIMIENTOS TÉCNICOS
+
+Realizar una aplicación Web, en la cual el usuario pueda acceder a ella desde cualquier dispositivo por medio de una navegador Web.
+Para esta fase del proyecto es viable utilizar MYSQL como base de datos, ya que luego de realizar un análisis llegamos a la conclusión de que utilizar esta base de datos relacional. 
+Como lenguaje principal utilizaremos JavaScript, ya que luego de realizar una investigación está técnologia es la que se encuentra mejor posiciona en el mercado del desarrollo Web, además dispone de gran soporte y librerias que permiten integrar el flujo de desarrollo en una sola tecnología. Para desplegar el servidor Web, conectar la base de datos, CRUD y controlar el flujo de la aplicación utilizaremos la librerias Express, debido a que esta libreria permite integrar el desarrollo de la aplicación con el lenguaje JavaScript, gestionar las consultas a la base de datos, de esta forma reduciendo la cantidad de tecnologías a implementar, ya que no tendremos que utilizar otros sistemas ni otros lenguajes de programación para realizar la conexión de la aplicación con la base de datos. Para lograr está integración utilizaremos el entorno de ejecución de Node.js debido a que facilita un entorno virtual en el cual poder ejecutar la aplicación en tiempo real y este es el entorno más popular para desarrollo Web. Tomamos como base el stack de tecnologías MERN (MongoDB, Express, React, Node.js) cabe a clarar que el framework de desarrollo React queda fuera del alcance de esta fase del desarrollo del proyecto. 
+
 #### RIESGOS 
 
 #### DISEÑO DE LA SOLUCIÓN

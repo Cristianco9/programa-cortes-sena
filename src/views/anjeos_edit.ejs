@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/styles/index.css"/>
+<link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-5 offset-md-3 card bg-dark">
+      <div class="card-body">
+        <form action="/anjeos/update/<%= customer.id %>" method="POST">
+          <input
+              type="text"
+              name="Pedido"
+              placeholder="Número de Pedido"
+              class="form-control mb-2"
+              autofocus
+            />
+            <input
+              type="text"
+              name="altura"
+              placeholder="Altura"
+              class="form-control mb-2"
+            
+            />
+            <input
+              type="text"
+              name="base"
+              placeholder="Base"
+              class="form-control mb-2"
+            />
+            <input
+              type="text"
+              name="tipo"
+              placeholder="Tipo de anjeo"
+              class="form-control mb-2"
+            />
+            <input
+              type="text"
+              name="color"
+              placeholder="Color del anjeo"
+              class="form-control mb-2"
+            />
+            <input
+              type="text"
+              name="doc"
+              placeholder="Número de identificación"
+              class="form-control mb-2"
+            />
+
+          <button type="submit" class="btn btn-primary">Guardar pedido</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
